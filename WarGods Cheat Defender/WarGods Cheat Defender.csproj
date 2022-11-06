@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{04275A2F-4C58-4EDE-BDFB-B920F253765F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WarGodsCheatDefender.Properties</RootNamespace>
+    <AssemblyName>WarGods Cheat Defender</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>WarGods Cheat Defender.ico</ApplicationIcon>
+    <StartupObject>Class40</StartupObject>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class11.cs" />
+    <Compile Include="Class12.cs" />
+    <Compile Include="Class13.cs" />
+    <Compile Include="Class14.cs" />
+    <Compile Include="Class15.cs" />
+    <Compile Include="Class40.cs" />
+    <Compile Include="Class41.cs" />
+    <Compile Include="Class42.cs" />
+    <Compile Include="Class43.cs" />
+    <Compile Include="Class44.cs" />
+    <Compile Include="Class45.cs" />
+    <Compile Include="Class46.cs" />
+    <Compile Include="Class47.cs" />
+    <Compile Include="Class48.cs" />
+    <Compile Include="Class49.cs" />
+    <Compile Include="Class5.cs" />
+    <Compile Include="Class50.cs" />
+    <Compile Include="Class51.cs" />
+    <Compile Include="Class52.cs" />
+    <Compile Include="Class53.cs" />
+    <Compile Include="Class54.cs" />
+    <Compile Include="Class56.cs" />
+    <Compile Include="Class57.cs" />
+    <Compile Include="Class58.cs" />
+    <Compile Include="Class59.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="Class60.cs" />
+    <Compile Include="Class7.cs" />
+    <Compile Include="Class8.cs" />
+    <Compile Include="Class9.cs" />
+    <Compile Include="Enum1.cs" />
+    <Compile Include="Enum2.cs" />
+    <Compile Include="Enum3.cs" />
+    <Compile Include="Enum4.cs" />
+    <Compile Include="Enum5.cs" />
+    <Compile Include="Enum6.cs" />
+    <Compile Include="Enum7.cs" />
+    <Compile Include="GClass0.cs" />
+    <Compile Include="GClass1.cs" />
+    <Compile Include="GClass10.cs" />
+    <Compile Include="GClass11.cs" />
+    <Compile Include="GClass12.cs" />
+    <Compile Include="GClass13.cs" />
+    <Compile Include="GClass14.cs" />
+    <Compile Include="GClass15.cs" />
+    <Compile Include="GClass16.cs" />
+    <Compile Include="GClass17.cs" />
+    <Compile Include="GClass18.cs" />
+    <Compile Include="GClass2.cs" />
+    <Compile Include="GClass20.cs" />
+    <Compile Include="GClass21.cs" />
+    <Compile Include="GClass22.cs" />
+    <Compile Include="GClass23.cs" />
+    <Compile Include="GClass24.cs" />
+    <Compile Include="GClass25.cs" />
+    <Compile Include="GClass26.cs" />
+    <Compile Include="GClass27.cs" />
+    <Compile Include="GClass28.cs" />
+    <Compile Include="GClass29.cs" />
+    <Compile Include="GClass3.cs" />
+    <Compile Include="GClass30.cs" />
+    <Compile Include="GClass31.cs" />
+    <Compile Include="GClass32.cs" />
+    <Compile Include="GClass33.cs" />
+    <Compile Include="GClass34.cs" />
+    <Compile Include="GClass35.cs" />
+    <Compile Include="GClass36.cs" />
+    <Compile Include="GClass37.cs" />
+    <Compile Include="GClass38.cs" />
+    <Compile Include="GClass39.cs" />
+    <Compile Include="GClass4.cs" />
+    <Compile Include="GClass40.cs" />
+    <Compile Include="GClass41.cs" />
+    <Compile Include="GClass42.cs" />
+    <Compile Include="GClass43.cs" />
+    <Compile Include="GClass44.cs" />
+    <Compile Include="GClass45.cs" />
+    <Compile Include="GClass49.cs" />
+    <Compile Include="GClass5.cs" />
+    <Compile Include="GClass50.cs" />
+    <Compile Include="GClass51.cs" />
+    <Compile Include="GClass52.cs" />
+    <Compile Include="GClass53.cs" />
+    <Compile Include="GClass54.cs" />
+    <Compile Include="GClass55.cs" />
+    <Compile Include="GClass56.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GClass57.cs" />
+    <Compile Include="GClass58.cs" />
+    <Compile Include="GClass59.cs" />
+    <Compile Include="GClass6.cs" />
+    <Compile Include="GClass60.cs" />
+    <Compile Include="GClass61.cs" />
+    <Compile Include="GClass62.cs" />
+    <Compile Include="GClass63.cs" />
+    <Compile Include="GClass7.cs" />
+    <Compile Include="GClass8.cs" />
+    <Compile Include="GClass9.cs" />
+    <Compile Include="GEnum0.cs" />
+    <Compile Include="GEnum1.cs" />
+    <Compile Include="GEnum15.cs" />
+    <Compile Include="GEnum20.cs" />
+    <Compile Include="GEnum21.cs" />
+    <Compile Include="GEnum22.cs" />
+    <Compile Include="GEnum23.cs" />
+    <Compile Include="GEnum48.cs" />
+    <Compile Include="GEnum49.cs" />
+    <Compile Include="GEnum51.cs" />
+    <Compile Include="GEnum52.cs" />
+    <Compile Include="GEnum53.cs" />
+    <Compile Include="GEnum54.cs" />
+    <Compile Include="GEnum55.cs" />
+    <Compile Include="GEnum56.cs" />
+    <Compile Include="GEnum57.cs" />
+    <Compile Include="GEnum58.cs" />
+    <Compile Include="GException0.cs" />
+    <Compile Include="GException1.cs" />
+    <Compile Include="GException2.cs" />
+    <Compile Include="GException3.cs" />
+    <Compile Include="GException4.cs" />
+    <Compile Include="GInterface0.cs" />
+    <Compile Include="GStruct26.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Struct7.cs" />
+    <Compile Include="Struct8.cs" />
+    <Compile Include="WCD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WCD.Designer.cs">
+      <DependentUpon>WCD.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="-DLB6#.resources" />
+    <EmbeddedResource Include="-[F@R-t-j.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="ethnocentric.ttf" />
+    <None Include="Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wcd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wcd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
